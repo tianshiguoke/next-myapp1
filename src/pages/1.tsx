@@ -11,8 +11,8 @@ export default function Page() {
     return (
         <div>
             {/* <DynamicComponent children='111' /> */}
-
-            <input
+1
+            {/* <input
                 type="text"
                 placeholder="Search"
                 onChange={async (e) => {
@@ -25,7 +25,7 @@ export default function Page() {
                     // setResults(fuse.search(value))
                 }}
             />
-            <pre>Results: {JSON.stringify(results, null, 2)}</pre>
+            <pre>Results: {JSON.stringify(results, null, 2)}</pre> */}
         </div>
     )
 }
