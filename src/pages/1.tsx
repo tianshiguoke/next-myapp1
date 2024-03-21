@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
-import Head from 'next/head'
+// import Head from 'next/head'
 
 // export const config = { amp: true }
 const names = ['Tim', 'Joe', 'Bel', 'Max', 'Lee']
@@ -10,7 +10,7 @@ export default function Page() {
     const date = new Date()
     return (
         <div>
-            <DynamicComponent children='111' />
+            {/* <DynamicComponent children='111' /> */}
 
             <input
                 type="text"
