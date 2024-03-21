@@ -10,7 +10,7 @@ export default function Page() {
     const date = new Date()
     return (
         <div>
-            <DynamicComponent children='111' />
+            {/* <DynamicComponent children='111' /> */}
             1
             {/* <input
                 type="text"
