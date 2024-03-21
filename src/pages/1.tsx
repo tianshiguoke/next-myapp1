@@ -4,14 +4,14 @@ import { useState } from 'react'
 
 // export const config = { amp: true }
 const names = ['Tim', 'Joe', 'Bel', 'Max', 'Lee']
-const DynamicComponent = dynamic(() => import('./components/Button'))
+// const DynamicComponent = dynamic(() => import('./components/Button'))
 export default function Page() {
     const [results, setResults] = useState()
     const date = new Date()
     return (
         <div>
             {/* <DynamicComponent children='111' /> */}
-1
+            1
             {/* <input
                 type="text"
                 placeholder="Search"
